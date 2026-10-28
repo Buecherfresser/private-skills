@@ -43,7 +43,7 @@ Kein Bild als Deko und keins, das nur wiederholt, was schon im Text steht. Kurze
 Beruht eine Frage oder Unsicherheit auf einer Stelle in einem Dokument, zeig dem Leser genau diese Stelle, damit er nicht selbst suchen muss. Nenne immer das Dokument und die Seite oder den Abschnitt dazu.
 
 - **PDF**: Mach einen Screenshot der Seite und markiere den Abschnitt, um den es geht, etwa mit einem farbigen Rahmen. Schneide das Bild so zu, dass die Stelle mit etwas Umfeld lesbar bleibt. Die Seite lässt sich zum Beispiel mit `pdftoppm -png -r 150 -f <seite> -l <seite>` rendern und mit ImageMagick oder Python (Pillow) markieren und zuschneiden. Eingefügt wird der Screenshot wie oben beschrieben.
-- **Markdown und andere Textdateien**: Ein direktes Zitat der Stelle als Blockzitat (`>`) reicht. Verlinke die Datei, auf GitHub am besten mit Zeilenangabe (`datei.md#L10-L14`).
+- **Alle anderen Formate**, etwa Markdown, Text, Word, HTML, CSV oder Code: Ein direktes Zitat der Stelle als Blockzitat (`>`) reicht. Verlinke die Datei, auf GitHub am besten mit Zeilenangabe (`datei.md#L10-L14`).
 
 ## Vor dem Posten
 
