@@ -32,11 +32,34 @@ Die erste Zeile ist immer "(geschrieben von jonas' agent)", bei englischen Texte
 
 Wo ein Bild etwas schneller zeigt als Text, nutze es. Ein guter Screenshot ersetzt oft einen ganzen Absatz, deshalb lohnt es sich, bei jedem Text kurz zu überlegen, ob eins passt.
 
-- **Screenshots** für alles, was man sieht: eine neue Seite, ein geändertes PDF, eine Fehlermeldung. Ändert sich etwas Sichtbares, gern vorher und nachher nebeneinander. Über `gh` lassen sich keine Bilder hochladen. Speichere den Screenshot deshalb als Datei, nenne dem Nutzer den Pfad und die Stelle im Text, an die er gehört, damit er ihn per Drag and Drop einfügt.
+- **Screenshots** für alles, was man sieht: eine neue Seite, ein geändertes PDF, eine Fehlermeldung. Ändert sich etwas Sichtbares, gern vorher und nachher nebeneinander. Hochgeladen werden Bilder über den Bilder-Branch (siehe unten).
 - **Tabellen** für Vergleiche, etwa vorher und nachher oder mehrere Fälle mit ihrem Ergebnis.
 - **Diagramme** für Abläufe mit mehreren Schritten oder Beteiligten, als Mermaid-Codeblock (```` ```mermaid ````), den GitHub direkt darstellt. Höchstens etwa sieben Kästen, beschriftet in Alltagssprache.
 
 Kein Bild als Deko und keins, das nur wiederholt, was schon im Text steht. Kurze Kommentare kommen meist ohne aus.
+
+### Bilder hochladen
+
+`gh` kann keine Bilder an PRs, Issues oder Kommentare hängen. Bilder kommen deshalb in einen eigenen, leeren Branch `bilder` im selben Repo, der nie gemergt wird. So bleiben sie aus dem Code heraus.
+
+Gibt es den Branch noch nicht, leg ihn einmal leer an. Diese Befehle ändern nichts am aktuellen Arbeitsstand:
+
+```bash
+SHA=$(git commit-tree "$(git hash-object -w -t tree /dev/null)" -m "chore: leerer branch für bilder")
+git push origin "$SHA":refs/heads/bilder
+```
+
+Jedes Bild lädst du dann über die API hoch, ohne den Branch auszuchecken. Leg es in einen Ordner, der nach dem PR oder Issue benannt ist, damit man es später zuordnen kann:
+
+```bash
+gh api -X PUT repos/<owner>/<repo>/contents/<ordner>/<name>.png -f message="docs: bild für <thema>" -f branch=bilder -f content="$(base64 -i <datei>.png)"
+```
+
+Im Text bindest du es mit diesem Link ein. Er funktioniert auch in privaten Repos für alle, die Zugriff haben:
+
+```markdown
+![kurze beschreibung](https://github.com/<owner>/<repo>/blob/bilder/<ordner>/<name>.png?raw=true)
+```
 
 ## Fragen zu Dokumenten
 
