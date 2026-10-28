@@ -42,8 +42,10 @@ Kein Bild als Deko und keins, das nur wiederholt, was schon im Text steht. Kurze
 
 Beruht eine Frage oder Unsicherheit auf einer Stelle in einem Dokument, zeig dem Leser genau diese Stelle, damit er nicht selbst suchen muss. Nenne immer das Dokument und die Seite oder den Abschnitt dazu.
 
-- **PDF**: Mach einen Screenshot der Seite und markiere den Abschnitt, um den es geht, etwa mit einem farbigen Rahmen. Schneide das Bild so zu, dass die Stelle mit etwas Umfeld lesbar bleibt. Die Seite lässt sich zum Beispiel mit `pdftoppm -png -r 150 -f <seite> -l <seite>` rendern und mit ImageMagick oder Python (Pillow) markieren und zuschneiden. Eingefügt wird der Screenshot wie oben beschrieben.
-- **Alle anderen Formate**, etwa Markdown, Text, Word, HTML, CSV oder Code: Ein direktes Zitat der Stelle als Blockzitat (`>`) reicht. Verlinke die Datei, auf GitHub am besten mit Zeilenangabe (`datei.md#L10-L14`).
+Ob Screenshot oder Zitat, hängt davon ab, was dem Leser mehr hilft:
+
+- **Screenshot**, wenn das Aussehen der Stelle zählt oder sich der Text nicht sauber abschreiben lässt: Layout, Tabellen, Grafiken, Formeln, Formatierung. Das gilt fast immer für PDFs und oft für HTML-Seiten, Folien oder Word-Dokumente. Markiere den Abschnitt, um den es geht, etwa mit einem farbigen Rahmen, und schneide das Bild so zu, dass die Stelle mit etwas Umfeld lesbar bleibt. Eine PDF-Seite lässt sich zum Beispiel mit `pdftoppm -png -r 150 -f <seite> -l <seite>` rendern, eine HTML-Seite im Browser aufnehmen. Markieren und zuschneiden geht mit ImageMagick oder Python (Pillow). Eingefügt wird der Screenshot wie oben beschrieben.
+- **Zitat**, wenn der Text allein reicht, etwa bei Markdown, reinem Text, CSV oder Code: die Stelle als Blockzitat (`>`) übernehmen. Verlinke die Datei, auf GitHub am besten mit Zeilenangabe (`datei.md#L10-L14`).
 
 ## Vor dem Posten
 
