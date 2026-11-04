@@ -11,7 +11,7 @@ Die Skills trennen Inhalt und Ausdruck. Stil-Skills regeln, wie ein Text klingt,
 | `github-schreibstil` | Stil | Agenten-Hinweis, Schreibung und Bilder für GitHub-Texte ans Team, baut auf `jonas-writing-style` auf |
 | `commit-schreiben` | Inhalt | Commit-Messages |
 | `pr-schreiben` | Inhalt | Titel und Beschreibung eines Pull Requests |
-| `pr-kommentieren` | Inhalt | Kurzer Kommentar an Teamkollegen auf PRs oder Issues |
+| `pr-kommentieren` | Inhalt | Kurzer Kommentar an Teamkollegen auf PRs oder Issues: Stand melden oder Befund schildern |
 | `issue-schreiben` | Inhalt | Titel und Text eines Issues |
 | `lernskript-schreiben` | Inhalt | Lernskript als LaTeX-Dokument und PDF |
 

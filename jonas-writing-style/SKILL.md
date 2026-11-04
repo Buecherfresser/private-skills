@@ -14,6 +14,7 @@ Write for someone smart who hasn't seen the code and has a minute. They want to 
 - Address the reader as "you". Use "we" for what the team did or decided ("we now move windows through the Dock"), and the product's name for what the software does ("Floe tiles every display on its own").
 - Say what is and what you did. Don't describe what something isn't, what you didn't do, or what you tried and dropped.
 - Prefer the concrete: a number, an example, a command to copy.
+- Show a problem with one real case and its numbers (what went in, what came out, what should have come out) instead of describing it in general.
 
 ## Sentences
 
@@ -28,6 +29,7 @@ Write for someone smart who hasn't seen the code and has a minute. They want to 
 - Make it as short as it can be while still answering the reader's questions. Cut details they don't need, or link to where they live.
 - Reference parts (tables, config examples, lists of options) may be long, as long as the text before them reads in a minute.
 - Use lists for parallel things (features, steps, changes) and prose for reasoning.
+- Split a longer text into short paragraphs, one thought each. A blank line between the problem, the case and its cause reads faster than one long sentence.
 - Add headings only when the text is long enough to need them, and keep them short and plain ("Install", "What changed").
 - Put commands in code blocks, ready to copy. Commands that belong together share one block.
 
