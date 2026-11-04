@@ -27,7 +27,6 @@ Die erste Zeile ist immer "(geschrieben von jonas' agent)", bei englischen Texte
 - Keine nackten Verweise wie "#36" oder Migrationsnummern wie "V54". Issues und PRs immer mit ihrem Titel als Link nennen ("der PR zum passwort-reset").
 - Keine Testzahlen ("2366 Tests"), keine Listen aller berührten Module und keine Reihenfolgen über einzelne Dateien. Gibt es ausführliche Doku, verlinke sie in einem Satz.
 - Allgemeine Entwicklerbegriffe wie Branch, Merge, Migration, Datenbank, Tests und API sind in Ordnung.
-- Geht es um eine Stelle im Code, verlinke sie, statt den Datei- oder Klassennamen zu nennen. Nimm dafür einen Permalink auf den Commit mit Zeilenangabe (`blob/<commit>/pfad#L10-L14`), denn dann zeigt er auch nach weiteren Pushes noch auf die richtige Zeile. Der Linktext beschreibt in Alltagssprache, was dort passiert ("der rechenkern [fragt sie](…)").
 
 ## Visuelle Elemente
 

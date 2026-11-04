@@ -14,7 +14,6 @@ Write for someone smart who hasn't seen the code and has a minute. They want to 
 - Address the reader as "you". Use "we" for what the team did or decided ("we now move windows through the Dock"), and the product's name for what the software does ("Floe tiles every display on its own").
 - Say what is and what you did. Don't describe what something isn't, what you didn't do, or what you tried and dropped.
 - Prefer the concrete: a number, an example, a command to copy.
-- Show a problem with one real case and its numbers (what went in, what came out, what should have come out) instead of describing it in general.
 
 ## Sentences
 
