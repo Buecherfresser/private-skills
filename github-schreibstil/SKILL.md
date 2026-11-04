@@ -19,7 +19,7 @@ Die erste Zeile ist immer "(geschrieben von jonas' agent)", bei englischen Texte
 ## Schreibung
 
 - Fließtext: Satzanfang groß, alles andere klein, auch Substantive ("Bisher musste der support jedes vergessene passwort von hand zurücksetzen").
-- Stichpunkte, Zwischenüberschriften und kurze Kommentare komplett klein.
+- Stichpunkte und Zwischenüberschriften komplett klein. Kommentare sind Fließtext und folgen der Regel oben.
 - Abkürzungen, die man groß schreibt, bleiben groß (API, PDF, SSO). Titel verlinkter Issues und PRs bleiben, wie sie sind.
 
 ## Verweise und Details
