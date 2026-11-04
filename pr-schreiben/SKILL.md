@@ -1,9 +1,9 @@
 ---
 name: pr-schreiben
-description: "Schreibt Titel und Beschreibung eines GitHub Pull Requests in Jonas' Stil: deutsch, mit Kontext, warum es die Änderung gibt, und einer Übersicht, die auch ohne Fachwissen verständlich ist. Immer verwenden, wenn ein PR erstellt oder seine Beschreibung überarbeitet wird."
+description: "Schreibt Titel und Beschreibung eines GitHub Pull Requests in Jonas' Stil: mit Kontext, warum es die Änderung gibt, und einer Übersicht, die auch ohne Fachwissen verständlich ist. Immer verwenden, wenn ein PR erstellt oder seine Beschreibung überarbeitet wird."
 ---
 
-Lade vor dem Schreiben den Skill `github-schreibstil` und befolge ihn. Er regelt Ton, Schreibung, den Hinweis auf den Agenten und was nicht in den Text gehört. Dieser Skill legt fest, was in einen PR gehört und wie er aufgebaut ist.
+Lade vor dem Schreiben den Skill `github-schreibstil` und befolge ihn. Er regelt Sprache, Ton, Schreibung, den Hinweis auf den Agenten und was nicht in den Text gehört. Dieser Skill legt fest, was in einen PR gehört und wie er aufgebaut ist.
 
 Wer den PR liest, soll ohne Blick in den Code verstehen, worum es geht, warum es die Änderung gibt und was er jetzt tun muss.
 
@@ -16,11 +16,11 @@ Wer den PR liest, soll ohne Blick in den Code verstehen, worum es geht, warum es
 
 ## Titel
 
-Ein kurzer deutscher Satzteil, der sagt, was danach geht oder anders ist, zum Beispiel "Nutzer können ihr Passwort selbst per Mail zurücksetzen". Keine Präfixe wie `feat(...)`, keine Klassen- oder Statusnamen.
+Ein kurzer Satzteil, der sagt, was danach geht oder anders ist, zum Beispiel "Nutzer können ihr Passwort selbst per Mail zurücksetzen". Keine Präfixe wie `feat(...)`, keine Klassen- oder Statusnamen.
 
 ## Beschreibung
 
-Nach dem Hinweis auf den Agenten kommen diese Teile, in dieser Reihenfolge. Überschriften klein und kurz ("übersicht", "was sich ändert"), keine `##`-Blöcke für jeden Satz.
+Nach dem Hinweis auf den Agenten kommen diese Teile, in dieser Reihenfolge. Überschriften wie "übersicht" oder "was sich ändert", keine `##`-Blöcke für jeden Satz.
 
 1. **Kontext**, ein bis drei Sätze ohne Überschrift: worum geht es und warum jetzt. Wenn es ein Issue dazu gibt, nenne es mit seinem Titel als Link.
 2. **übersicht**: zwei bis vier Sätze Fließtext, die zusammenfassen, was gemacht wurde. Geschrieben für jemanden, der sich im Thema nicht auskennt: erst in einem Satz erklären, worum es fachlich geht, dann sagen, was die Anwendung jetzt anders macht. Keine Fachdetails, keine Aufzählung.

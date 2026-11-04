@@ -3,7 +3,7 @@ name: pr-kommentieren
 description: Write a short GitHub PR or issue comment on Jonas's behalf, at most three sentences, marked as written by his agent. Use whenever posting a comment to a teammate on a pull request or issue.
 ---
 
-Lade vor dem Schreiben den Skill `github-schreibstil` und befolge ihn. Er regelt zusammen mit `jonas-writing-style` Sprache, Ton, Schreibung, den Hinweis auf den Agenten und was nicht in den Text gehört. Dieser Skill legt fest, was in einen Kommentar gehört.
+Lade vor dem Schreiben den Skill `github-schreibstil` und befolge ihn. Er regelt Sprache, Ton, Schreibung, den Hinweis auf den Agenten und was nicht in den Text gehört. Dieser Skill legt fest, was in einen Kommentar gehört.
 
 - Höchstens drei Sätze, gerichtet an die Person mit ihrem Vornamen.
 - Je ein kurzer Satz dazu, was sich geändert hat, was die Person tun soll und wo die Sache gerade steht. Kein Satz zu jedem einzelnen Schritt oder Fix.

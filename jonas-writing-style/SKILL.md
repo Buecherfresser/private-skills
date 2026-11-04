@@ -7,7 +7,7 @@ Write for someone smart who hasn't seen the code and has a minute. They want to 
 
 ## Language
 
-- Use the language the readers use in this project, as in its issues, pull requests and docs: English stays English, German stays German. For German, also follow `natural-german-2`.
+- Use the language of the project or conversation: English stays English, German stays German. For German, also follow `natural-german-2`.
 - Use everyday words and describe things from the reader's side: what they see, type or get ("windows move to the other desktop"), not how the code does it ("the bridged space operation").
 - Leave out names from the code (classes, files, functions, flags, enum values) unless the reader has to type or click them. Then put them in `code`.
 - Write abbreviations out, and explain a technical term in the same sentence the first time it appears.
@@ -28,7 +28,6 @@ Write for someone smart who hasn't seen the code and has a minute. They want to 
 - Make it as short as it can be while still answering the reader's questions. Cut details they don't need, or link to where they live.
 - Reference parts (tables, config examples, lists of options) may be long, as long as the text before them reads in a minute.
 - Use lists for parallel things (features, steps, changes) and prose for reasoning.
-- Split a longer text into short paragraphs, one thought each. A blank line between the problem, the case and its cause reads faster than one long sentence.
 - Add headings only when the text is long enough to need them, and keep them short and plain ("Install", "What changed").
 - Put commands in code blocks, ready to copy. Commands that belong together share one block.
 
