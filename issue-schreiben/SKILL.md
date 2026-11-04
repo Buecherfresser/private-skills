@@ -1,9 +1,9 @@
 ---
 name: issue-schreiben
-description: "Schreibt Titel und Text eines GitHub Issues in Jonas' Stil: deutsch, kurzer Kontext, was gerade fehlt oder hakt und was zu tun ist. Immer verwenden, wenn ein Issue angelegt oder sein Text überarbeitet wird."
+description: "Schreibt Titel und Text eines GitHub Issues in Jonas' Stil: kurzer Kontext, was gerade fehlt oder hakt und was zu tun ist. Immer verwenden, wenn ein Issue angelegt oder sein Text überarbeitet wird."
 ---
 
-Lade vor dem Schreiben den Skill `github-schreibstil` und befolge ihn. Er regelt Ton, Schreibung, den Hinweis auf den Agenten und was nicht in den Text gehört. Dieser Skill legt fest, was in ein Issue gehört und wie es aufgebaut ist.
+Lade vor dem Schreiben den Skill `github-schreibstil` und befolge ihn. Er regelt Sprache, Ton, Schreibung, den Hinweis auf den Agenten und was nicht in den Text gehört. Dieser Skill legt fest, was in ein Issue gehört und wie es aufgebaut ist.
 
 Wer das Issue liest, soll verstehen, wie es gerade aussieht, warum das ein Problem ist und was getan werden soll, ohne vorher im Code oder in anderen Issues nachzulesen.
 
@@ -15,11 +15,11 @@ Wer das Issue liest, soll verstehen, wie es gerade aussieht, warum das ein Probl
 
 ## Titel
 
-Kurz und deutsch, benennt das Thema oder Ziel, zum Beispiel "Passwort selbst zurücksetzen". Keine Präfixe wie `bug:` oder `feat:`.
+Kurz, benennt das Thema oder Ziel, zum Beispiel "Passwort selbst zurücksetzen". Keine Präfixe wie `bug:` oder `feat:`.
 
 ## Text
 
-Nach dem Hinweis auf den Agenten kommen diese Teile, in dieser Reihenfolge. Überschriften klein und kurz, wie bei PRs.
+Nach dem Hinweis auf den Agenten kommen diese Teile, in dieser Reihenfolge.
 
 1. **Kontext**, zwei bis vier Sätze ohne Überschrift: worum geht es, warum ist es jetzt dran und warum ist es wichtig. Richtet sich das Issue an eine Person, sprich sie mit ihrem Vornamen an. Wenn etwas erwartbar noch fehlt, sag das offen.
 2. **offene punkte**: zwei bis fünf Stichpunkte zum Ist-Zustand, also was heute fehlt oder falsch läuft, aus Sicht dessen, der die Anwendung benutzt oder fachlich versteht ("ein vergessenes passwort kann nur der support zurücksetzen").

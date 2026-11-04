@@ -8,7 +8,7 @@ Die Skills trennen Inhalt und Ausdruck. Stil-Skills regeln, wie ein Text klingt,
 |---|---|---|
 | `jonas-writing-style` | Stil | Grundlage für alle Texte, die andere lesen, auf Englisch und Deutsch |
 | `natural-german-2` | Stil | Natürlich klingendes Deutsch, wird von `jonas-writing-style` geladen |
-| `github-schreibstil` | Stil | Agenten-Hinweis, Schreibung und Bilder für GitHub-Texte ans Team, baut auf `jonas-writing-style` auf |
+| `github-schreibstil` | Stil | Sprache, Agenten-Hinweis, Schreibung und Bilder für GitHub-Texte ans Team, baut auf `jonas-writing-style` auf |
 | `commit-schreiben` | Inhalt | Commit-Messages |
 | `pr-schreiben` | Inhalt | Titel und Beschreibung eines Pull Requests |
 | `pr-kommentieren` | Inhalt | Kurzer Kommentar an Teamkollegen auf PRs oder Issues |

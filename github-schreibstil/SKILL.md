@@ -1,6 +1,6 @@
 ---
 name: github-schreibstil
-description: "Jonas' Schreibstil für alles, was sein Agent auf GitHub ans Team schreibt: Hinweis auf den Agenten, Kleinschreibung, lockerer Ton, Screenshots und Diagramme, wo sie helfen. Baut auf jonas-writing-style auf und wird von pr-schreiben, pr-kommentieren und issue-schreiben geladen. Direkt verwenden für andere GitHub-Texte in Jonas' Namen, etwa Antworten im Review oder Release-Notizen."
+description: "Jonas' Schreibstil für alles, was sein Agent auf GitHub ans Team schreibt: Sprache des Repos, Hinweis auf den Agenten, Kleinschreibung, Absätze, lockerer Ton, Screenshots und Diagramme, wo sie helfen. Baut auf jonas-writing-style auf und wird von pr-schreiben, pr-kommentieren und issue-schreiben geladen. Direkt verwenden für andere GitHub-Texte in Jonas' Namen, etwa Antworten im Review oder Release-Notizen."
 ---
 
 Lade vor dem Schreiben den Skill `jonas-writing-style` und befolge ihn. Er regelt die Grundlagen: Alltagssprache aus Sicht des Lesers, keine Namen aus dem Code, Abkürzungen ausschreiben, Länge, und für deutsche Texte `natural-german-2`. Dieser Skill ergänzt, was nur für GitHub-Texte in Jonas' Namen gilt, und hat Vorrang, wo sich beide widersprechen.
@@ -11,6 +11,10 @@ Was in einen Text gehört und wie er aufgebaut ist, legt der Skill für die jewe
 
 Die erste Zeile ist immer "(geschrieben von jonas' agent)", bei englischen Texten "(written by jonas' agent)". Danach folgt eine Leerzeile. Die Zeile "Generated with Claude Code" kommt nicht ans Ende, der Hinweis oben ersetzt sie.
 
+## Sprache
+
+Texte auf GitHub folgen der Sprache des Repos, also der seiner Issues, PRs und Doku. In einem deutschen Repo schreibst du deutsch, in einem englischen englisch, egal was der Skill für die jeweilige Textsorte als Beispiel zeigt.
+
 ## Ton
 
 - Locker und direkt, so wie Jonas mit seinem Team schreibt. Keine Slang-Wörter einbauen, nur um locker zu klingen.
@@ -18,9 +22,10 @@ Die erste Zeile ist immer "(geschrieben von jonas' agent)", bei englischen Texte
 
 ## Schreibung
 
-- Fließtext: Satzanfang groß, alles andere klein, auch Substantive ("Bisher musste der support jedes vergessene passwort von hand zurücksetzen").
-- Stichpunkte, Zwischenüberschriften und kurze Kommentare komplett klein.
+- Fließtext, auch in Kommentaren: Satzanfang groß, alles andere klein, auch Substantive ("Bisher musste der support jedes vergessene passwort von hand zurücksetzen").
+- Stichpunkte und Zwischenüberschriften komplett klein und kurz.
 - Abkürzungen, die man groß schreibt, bleiben groß (API, PDF, SSO). Titel verlinkter Issues und PRs bleiben, wie sie sind.
+- Längere Texte teilst du in kurze Absätze, ein Gedanke je Absatz.
 
 ## Verweise und Details
 
